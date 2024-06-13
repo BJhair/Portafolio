@@ -1,0 +1,5 @@
+print("Programa que convierte caracteres ingresados por el usuario en una cadena")
+char1 = str(input("Primer caracter: "))
+char2 = str(input("Segundo caracter: "))
+char3 = str(input("Tercer caracter: "))
+print("La cadena formada es: ", char1 + char2 + char3)

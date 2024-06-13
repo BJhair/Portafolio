@@ -1,0 +1,66 @@
+body{
+    background-color:   #FFFAE6;
+}
+
+h2{
+    font-size: 2rem;
+    color: #c0a890;
+    text-align:center;
+    padding: 1.5rem;
+}
+
+.imgcard{
+    position: relative;
+    z-index: 3;
+}
+
+.card-body{
+    position: relative;
+    z-index: 2;
+}
+
+.yo{
+    width: auto;
+    height: 25rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+}
+
+#mySidenav a {
+    position: absolute;
+    right: -25px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    z-index: 1;
+  }
+  
+  #mySidenav a:hover {
+    right: -100px;
+    z-index: 1;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #FFA62F;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #FF9F66;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #FF5F00;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #002379
+  }
+
