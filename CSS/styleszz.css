@@ -1,0 +1,65 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo */
+    background-image: url('https://via.placeholder.com/150'); /* URL de la textura de fondo */
+    background-repeat: repeat; /* Repetir la textura */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #343a40; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+}
+
+/* Estilos para la sección Acerca de mí */
+/* Estilos para la sección Acerca de mí */
+section:nth-of-type(1) {
+    padding: 20px 0; /* Espaciado interno */
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+section h2 {
+    color: #343a40; /* Color del título */
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: none; /* Sin borde */
+    background-color: #fff; /* Color de fondo */
+    border-radius: 10px; /* Radio de borde */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: box-shadow 0.3s ease; /* Transición de la sombra */
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
+}
+
+.card-title {
+    color: #343a40; /* Color del título */
+}
+
+.card-text {
+    color: #6c757d; /* Color del texto */
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #007bff; /* Color de fondo */
+    border-color: #007bff; /* Color del borde */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+    border-color: #0056b3; /* Color del borde al pasar el cursor */
+}
+
+/* Estilos para las imágenes dentro de la sección Acerca de mí */
+section img {
+    max-width: 100%; /* Asegurarse de que la imagen no se extienda más allá del contenedor */
+    height: auto; /* Mantener la relación de aspecto */
+}
