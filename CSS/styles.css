@@ -1,10 +1,23 @@
 body{
-    background-color:   #FFFAE6;
+  background-image: url("./BGalpha40.svg");
+  background-size: 20%;
+  animation: pan 180s linear infinite;
 }
+
+@keyframes pan{
+  0%{
+    background-position: 0% 0%;
+  }
+  100%{
+    background-position: 100% 0%;
+  }
+}
+
 
 h2{
     font-size: 2rem;
-    color: #c0a890;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, .5), 1px -1px 0 rgba(0, 0, 0, .5), -1px 1px 0 rgba(0, 0, 0, .5), 1px 1px 0 rgba(0, 0, 0, .5);
+    color: #FFBF78;
     text-align:center;
     padding: 1.5rem;
 }
@@ -47,6 +60,22 @@ h2{
     width: auto;
     height: 25rem;
     border-radius: 50%;
+    text-align: center;
+    border: 3px solid rgba(0, 0, 0, .5);
+}
+
+#parent{
+  margin-top: 3rem;
+  position: relative;
+}
+
+
+#child{
+  font-size: 1.2rem;
+  background-color: rgba(192, 168, 144, .5);
+  border: 1px solid black;
+  position: absolute;
+  width: auto;
 }
 
 #mySidenav a {
